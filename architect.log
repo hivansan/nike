@@ -1,0 +1,121 @@
+0    [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ArchitectUtils  - Log4J configured successfully
+1746 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Beginning to read/merge new pl.ini data
+2142 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Finished reading file.
+2142 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Beginning to read/merge new pl.ini data
+2334 [AWT-EventQueue-0] INFO  ca.sqlpower.sql.PlDotIni  - Finished reading file.
+31512 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.dbtree.DBTreeModel  - Changing a UUID. This should only be done during load.
+31639 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPenComponent  - TablePane: categories (TABLE) is adding ca.sqlpower.architect.swingui.PlayPen[Play Pen,0,0,0x0,invalid,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@10839f78,flags=9,maximumSize=,minimumSize=java.awt.Dimension[width=1,height=1],preferredSize=]
+31644 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPenComponent  - TablePane: products (TABLE) is adding ca.sqlpower.architect.swingui.PlayPen[Play Pen,0,0,0x0,invalid,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@10839f78,flags=9,maximumSize=,minimumSize=java.awt.Dimension[width=1,height=1],preferredSize=]
+31651 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPenComponent  - TablePane: branch (TABLE) is adding ca.sqlpower.architect.swingui.PlayPen[Play Pen,0,0,0x0,invalid,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@10839f78,flags=9,maximumSize=,minimumSize=java.awt.Dimension[width=1,height=1],preferredSize=]
+31710 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.PlayPenComponent  - Relationship: categories_products_fk is adding ca.sqlpower.architect.swingui.PlayPen[Play Pen,0,0,0x0,invalid,layout=java.awt.FlowLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@10839f78,flags=9,maximumSize=,minimumSize=java.awt.Dimension[width=1,height=1],preferredSize=]
+32062 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+32063 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+32065 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+32066 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+32066 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+32067 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+32067 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+32068 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+32069 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+32069 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column address: VARCHAR(120)
+34446 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34447 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+34448 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34449 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+34449 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+34449 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+34450 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+34450 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+34451 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34451 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column address: VARCHAR(120)
+34560 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34560 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+34561 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34561 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+34562 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+34563 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+34565 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+34566 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+34567 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34567 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column address: VARCHAR(120)
+34913 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34913 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+34914 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34914 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+34915 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+34915 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+34916 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+34916 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+34916 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+34917 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column address: VARCHAR(120)
+38769 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+38770 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+38771 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+38771 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+38772 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+38772 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+49547 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - TablePane got object changed event.  Source=ca.sqlpower.sqlobject.SQLTypePhysicalProperties@dad3429d, BIGINT:caee264b-0a98-4a40-87b0-ce8ddcc48d9a Property=name oldVal=UserDefinedSQLType newVal=BIGINT selectedItems=[id: BIGINT]
+49554 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - TablePane got object changed event.  Source=ca.sqlpower.sqlobject.SQLTypePhysicalProperties@dad3429d, BIGINT:caee264b-0a98-4a40-87b0-ce8ddcc48d9a Property=precision oldVal=0 newVal=null selectedItems=[id: BIGINT]
+49557 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - TablePane got object changed event.  Source=ca.sqlpower.sqlobject.SQLTypePhysicalProperties@dad3429d, BIGINT:caee264b-0a98-4a40-87b0-ce8ddcc48d9a Property=scale oldVal=0 newVal=null selectedItems=[id: BIGINT]
+49560 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - TablePane got object changed event.  Source=UserDefinedSQLType Property=myAutoIncrement oldVal=false newVal=true selectedItems=[id: BIGINT]
+49631 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+49632 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+49642 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+49643 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+49643 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+49644 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+50344 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+50345 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+50346 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+50346 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+50347 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+50347 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+50347 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+50348 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+50349 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+50349 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column address: VARCHAR(120)
+50360 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+50361 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+50362 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+50363 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column name: VARCHAR(100)
+50364 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column description: VARCHAR(100)
+50364 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column image: VARCHAR(100)
+50365 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column category_id: BIGINT
+50365 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column video: VARCHAR(100)
+50366 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column id: BIGINT
+50367 [AWT-EventQueue-0] DEBUG ca.sqlpower.architect.swingui.TablePane  - Checking column address: VARCHAR(120)
+56332 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+CREATE TABLE branch (
+                id BIGINT AUTO_INCREMENT NOT NULL,
+                address VARCHAR(120),
+                PRIMARY KEY (id)
+)
+56334 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+CREATE TABLE categories (
+                id BIGINT AUTO_INCREMENT NOT NULL,
+                name VARCHAR(100) NOT NULL,
+                PRIMARY KEY (id)
+)
+56335 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+CREATE TABLE products (
+                id BIGINT AUTO_INCREMENT NOT NULL,
+                name VARCHAR(100) NOT NULL,
+                description VARCHAR(100) NOT NULL,
+                image VARCHAR(100),
+                category_id BIGINT NOT NULL,
+                video VARCHAR(100),
+                PRIMARY KEY (id)
+)
+56336 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.ddl.GenericDDLGenerator  - endStatement: 
+
+
+ALTER TABLE products ADD CONSTRAINT categories_products_fk
+FOREIGN KEY (category_id)
+REFERENCES categories (id)
+ON DELETE CASCADE
+ON UPDATE CASCADE
+56355 [AWT-EventQueue-0] INFO  ca.sqlpower.architect.swingui.SQLScriptDialog  - The list size is :4

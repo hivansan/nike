@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id          :integer          not null, primary key
+#  name        :string(100)      not null
+#  description :string(100)      not null
+#  image       :string(100)
+#  category_id :integer          not null
+#  video       :string(100)
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  category_id: 1
+  description: MyText
+  image: MyString
+  video: MyString
+
+two:
+  name: MyString
+  category_id: 1
+  description: MyText
+  image: MyString
+  video: MyString
