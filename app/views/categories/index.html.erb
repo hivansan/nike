@@ -1,8 +1,9 @@
 <h1>Listing categories</h1>
 
-<table>
+<table = class="table">
   <tr>
-    <th>Name</th>
+    <th>Nombre</th>
+    <th>Productos</th>
     <th></th>
     <th></th>
     <th></th>
@@ -11,6 +12,7 @@
 <% @categories.each do |category| %>
   <tr>
     <td><%= category.name %></td>
+    <td><%= link_to 'Ver Productos', category_products_path(category) %></td>
     <td><%= link_to 'Show', category %></td>
     <td><%= link_to 'Edit', edit_category_path(category) %></td>
     <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -20,4 +22,4 @@
 
 <br />
 
-<%= link_to 'New Category', new_category_path %>
+<%= link_to 'Añadir Categoría', new_category_path %>

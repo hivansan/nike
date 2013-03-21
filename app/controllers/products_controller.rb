@@ -1,8 +1,8 @@
 class ProductsController < ApplicationController
-  # GET /products
-  # GET /products.json
+  
   def index
-    @products = Product.all
+    @category = Category.find(params[:category_id])
+    @products = @category.products
 
     respond_to do |format|
       format.html # index.html.erb
@@ -10,8 +10,6 @@ class ProductsController < ApplicationController
     end
   end
 
-  # GET /products/1
-  # GET /products/1.json
   def show
     @product = Product.find(params[:id])
 
@@ -21,9 +19,8 @@ class ProductsController < ApplicationController
     end
   end
 
-  # GET /products/new
-  # GET /products/new.json
   def new
+    @category = Category.find(params[:category_id])
     @product = Product.new
 
     respond_to do |format|
@@ -37,14 +34,12 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
   end
 
-  # POST /products
-  # POST /products.json
   def create
     @product = Product.new(params[:product])
-
+    
     respond_to do |format|
       if @product.save
-        format.html { redirect_to @product, notice: 'Product was successfully created.' }
+        format.html { redirect_to category_product_path(@product.category, @product), notice: 'Product was successfully created.' }
         format.json { render json: @product, status: :created, location: @product }
       else
         format.html { render action: "new" }
@@ -53,14 +48,12 @@ class ProductsController < ApplicationController
     end
   end
 
-  # PUT /products/1
-  # PUT /products/1.json
   def update
     @product = Product.find(params[:id])
 
     respond_to do |format|
       if @product.update_attributes(params[:product])
-        format.html { redirect_to @product, notice: 'Product was successfully updated.' }
+        format.html { redirect_to category_product_path(@product.category, @product), notice: 'Product was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -69,8 +62,6 @@ class ProductsController < ApplicationController
     end
   end
 
-  # DELETE /products/1
-  # DELETE /products/1.json
   def destroy
     @product = Product.find(params[:id])
     @product.destroy
