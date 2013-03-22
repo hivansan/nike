@@ -6,7 +6,7 @@ class BranchesController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @branches }
+      format.json { render json: {branches: @branches} }
     end
   end
 
