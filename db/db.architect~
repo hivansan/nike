@@ -48,7 +48,7 @@
     <column id="COL8" populated="true" UUID="74ad6fe3-e307-48f1-9904-d854d1c335ec" autoIncrement="false" autoIncrementSequenceName="products_name_seq" defaultValue="" name="name" nullable="0" physicalName="name" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL9" populated="true" UUID="0d1648bb-68d8-46d4-b307-538c215a1349" autoIncrement="false" autoIncrementSequenceName="products_description_seq" defaultValue="" name="description" nullable="0" physicalName="description" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL9" populated="true" UUID="0d1648bb-68d8-46d4-b307-538c215a1349" autoIncrement="false" autoIncrementSequenceName="products_description_seq" defaultValue="" name="description" nullable="0" physicalName="description" precision="600" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     <column id="COL10" populated="true" UUID="e148abba-575f-43b0-a288-905bea80ff22" autoIncrement="false" autoIncrementSequenceName="products_image_seq" defaultValue="" name="image" nullable="1" physicalName="image" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -71,13 +71,28 @@
     </index>
    </folder>
   </table>
-  <table id="TAB15" populated="true" UUID="ae740cdc-5a73-4f50-abd2-7a65086cd48c" name="branch" objectType="TABLE" physicalName="branch" >
+  <table id="TAB15" populated="true" UUID="ae740cdc-5a73-4f50-abd2-7a65086cd48c" name="branches" objectType="TABLE" physicalName="branches" >
    <remarks></remarks>
    <folder id="FOLTAB151" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL16" populated="true" UUID="0b45bfd9-ec43-4264-83ff-5916ee23ac30" autoIncrement="true" autoIncrementSequenceName="branch_id_seq" defaultValue="" name="id" nullable="0" physicalName="id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
+    <column id="COL16" populated="true" UUID="0b45bfd9-ec43-4264-83ff-5916ee23ac30" autoIncrement="true" autoIncrementSequenceName="branches_id_seq" defaultValue="" name="id" nullable="0" physicalName="id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="-5" userDefinedTypeUUID="433cc8af-284d-4abb-8ef7-08ebcb34dbf1" >
      <remarks></remarks>
     </column>
-    <column id="COL17" populated="true" UUID="968be18c-c97c-4dfa-8133-6835a42b349b" autoIncrement="false" autoIncrementSequenceName="branch_address_seq" defaultValue="" name="address" nullable="1" physicalName="address" precision="120" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL17" populated="true" UUID="857093c4-749e-4f9c-a77a-9ec48aa952ad" autoIncrement="false" autoIncrementSequenceName="branches_name_seq" defaultValue="" name="name" nullable="1" physicalName="name" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="79a1ce6a-a142-48c8-8fb8-213d9efe0923" autoIncrement="false" autoIncrementSequenceName="branches_street_seq" defaultValue="" name="street" nullable="1" physicalName="street" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="bcf05938-b25b-4fd6-b125-428a46a5564b" autoIncrement="false" autoIncrementSequenceName="branches_phone_seq" defaultValue="" name="phone" nullable="1" physicalName="phone" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL20" populated="true" UUID="a0747cfd-c631-4e33-8dd9-4b86cf82e7e1" autoIncrement="false" autoIncrementSequenceName="branches_delegation_seq" defaultValue="" name="delegation" nullable="1" physicalName="delegation" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL21" populated="true" UUID="e9f5840b-4b27-4c11-8db5-1c7d9bad7f5e" autoIncrement="false" autoIncrementSequenceName="branches_town_seq" defaultValue="" name="town" nullable="1" physicalName="town" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL22" populated="true" UUID="70374ab3-988f-4c2e-a674-51715c32549d" autoIncrement="false" autoIncrementSequenceName="branches_state_seq" defaultValue="" name="state" nullable="1" physicalName="state" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
@@ -86,14 +101,14 @@
     <folder id="FOLTAB152" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB154" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX18" populated="true" UUID="81d95670-dd40-4e0f-8c45-90a06c13b23c" clustered="false" name="branch_pk" physicalName="branch_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC19" populated="true" UUID="20460f38-5905-42c2-b4fc-43fa8901ab96" ascendingOrDescending="UNSPECIFIED" column-ref="COL16" name="id" physicalName="id" />
+    <index id="IDX23" populated="true" UUID="81d95670-dd40-4e0f-8c45-90a06c13b23c" clustered="false" name="branches_pk" physicalName="branch_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC24" populated="true" UUID="20460f38-5905-42c2-b4fc-43fa8901ab96" ascendingOrDescending="UNSPECIFIED" column-ref="COL16" name="id" physicalName="id" />
     </index>
    </folder>
   </table>
   <relationships>
-   <relationship id="REL20" populated="true" UUID="d456dcff-6121-4202-8a2d-489da5dca885" deferrability="7" deleteRule="0" fk-table-ref="TAB6" fkCardinality="7" identifying="true" name="categories_products_fk" physicalName="categories_products_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="0" >
-    <column-mapping id="CMP21" populated="true" UUID="0e320bb5-0195-43c9-9d54-294b90c2b38b" fk-column-ref="COL11" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL25" populated="true" UUID="d456dcff-6121-4202-8a2d-489da5dca885" deferrability="7" deleteRule="0" fk-table-ref="TAB6" fkCardinality="7" identifying="true" name="categories_products_fk" physicalName="categories_products_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="0" >
+    <column-mapping id="CMP26" populated="true" UUID="0e320bb5-0195-43c9-9d54-294b90c2b38b" fk-column-ref="COL11" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
   </relationships>
  </target-database>
@@ -104,7 +119,7 @@
   <table-pane table-ref="TAB1" x="113" y="87" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB6" x="459" y="91" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB15" x="112" y="286" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-link relationship-ref="REL20" pkConnection="0.48484848484848486" fkConnection="0.8059701492537313" rLineColor="0x4c4c4c" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL25" pkConnection="0.48484848484848486" fkConnection="0.8059701492537313" rLineColor="0x4c4c4c" pkLabelText="" fkLabelText="" orientation="33"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">

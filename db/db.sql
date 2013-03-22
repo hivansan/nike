@@ -1,7 +1,12 @@
 
-CREATE TABLE branch (
+CREATE TABLE branches (
                 id BIGINT AUTO_INCREMENT NOT NULL,
-                address VARCHAR(120),
+                name VARCHAR(100),
+                street VARCHAR(100),
+                phone VARCHAR(50),
+                delegation VARCHAR(100),
+                town VARCHAR(100),
+                state VARCHAR(100),
                 PRIMARY KEY (id)
 );
 
@@ -16,7 +21,7 @@ CREATE TABLE categories (
 CREATE TABLE products (
                 id BIGINT AUTO_INCREMENT NOT NULL,
                 name VARCHAR(100) NOT NULL,
-                description VARCHAR(100) NOT NULL,
+                description VARCHAR(600) NOT NULL,
                 image VARCHAR(100),
                 category_id BIGINT NOT NULL,
                 video VARCHAR(100),
