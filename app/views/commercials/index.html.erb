@@ -1,0 +1,25 @@
+<h1>Listing commercials</h1>
+
+<table>
+  <tr>
+    <th>Image</th>
+    <th>Video</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @commercials.each do |commercial| %>
+  <tr>
+    <td><%= commercial.image %></td>
+    <td><%= commercial.video %></td>
+    <td><%= link_to 'Show', commercial %></td>
+    <td><%= link_to 'Edit', edit_commercial_path(commercial) %></td>
+    <td><%= link_to 'Destroy', commercial, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Commercial', new_commercial_path %>

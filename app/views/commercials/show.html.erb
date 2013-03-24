@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Image:</b>
+  <%= @commercial.image %>
+</p>
+
+<p>
+  <b>Video:</b>
+  <%= @commercial.video %>
+</p>
+
+
+<%= link_to 'Edit', edit_commercial_path(@commercial) %> |
+<%= link_to 'Back', commercials_path %>
