@@ -6,7 +6,7 @@ class CommercialsController < ApplicationController
 
     respond_to do |format|
       format.html # index.html.erb
-      format.json { render json: @commercials }
+      format.json { render json: {commercials: @commercials } }
     end
   end
 

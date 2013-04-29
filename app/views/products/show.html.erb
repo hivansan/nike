@@ -22,6 +22,12 @@
 </p>
 
 <p>
+  <b>QR Code:</b>
+  <%= image_tag @product.qr_code_img.to_s, :size => "200x160" %>
+  
+</p>
+
+<p>
   <b>Video:</b>
   <%=  @product.video %>
 
