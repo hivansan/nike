@@ -1,4 +1,6 @@
 class CommercialsController < ApplicationController
+  before_filter :signed_in_user
+  
   # GET /commercials
   # GET /commercials.json
   def index

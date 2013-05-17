@@ -1,4 +1,24 @@
 
+CREATE TABLE users (
+                id INT AUTO_INCREMENT NOT NULL,
+                name VARCHAR(255),
+                email VARCHAR(255) NOT NULL,
+                created_at DATETIME NOT NULL,
+                updated_at DATETIME NOT NULL,
+                password_digest VARCHAR(255),
+                remember_token VARCHAR(255),
+                PRIMARY KEY (id)
+);
+
+
+CREATE TABLE commercials (
+                id BIGINT AUTO_INCREMENT NOT NULL,
+                image VARCHAR(100),
+                video VARCHAR(100),
+                PRIMARY KEY (id)
+);
+
+
 CREATE TABLE branches (
                 id BIGINT AUTO_INCREMENT NOT NULL,
                 name VARCHAR(100),
@@ -25,6 +45,7 @@ CREATE TABLE products (
                 image VARCHAR(100),
                 category_id BIGINT NOT NULL,
                 video VARCHAR(100),
+                qr_code_img VARCHAR(100),
                 PRIMARY KEY (id)
 );
 

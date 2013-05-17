@@ -1,7 +1,15 @@
 Pddm2p::Application.routes.draw do
-  root :to => 'categories#index'
+  resources :sessions,      only: [:new, :create, :destroy]
+  resources :commercials
+  resources :branches
+
   
-  resources :products
-  resources :categories
+  resources :categories do 
+    resources :products
+  end 
   
+  match '/signin',  to: 'sessions#new'
+  match '/signout', to: 'sessions#destroy', via: :delete
+  
+  root :to => 'sessions#new' #'categories#index'
 end
