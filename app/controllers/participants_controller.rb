@@ -1,4 +1,6 @@
 class ParticipantsController < ApplicationController
+require 'clickatell'
+
 #  before_filter :signed_in_user
   # GET /participants
   # GET /participants.json
@@ -51,6 +53,21 @@ class ParticipantsController < ApplicationController
       
       participant.save
     end
+  end
+  
+  def send_sms
+    participants = Participant.all
+#    participants.each do |participant|
+#      if participant.celphone[0] == "5" && participant.celphone[1] == "5"
+        api = Clickatell::API.authenticate('3384575', 'raulms', 'fKj0LPo5')
+        api.send_message('525543811862', 'Hello from clickatell')
+#      end
+#    end
+    
+    flash[:success] = "success"
+    
+    redirect_to participants_url
+    
   end
   
   # POST /participants

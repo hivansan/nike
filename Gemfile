@@ -6,6 +6,8 @@ gem 'annotate'
 gem 'mysql2'
 gem 'bcrypt-ruby', '3.0.1'
 
+gem 'clickatell'
+
 gem 'carrierwave'
 
 group :assets do
