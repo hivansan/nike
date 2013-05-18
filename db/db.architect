@@ -167,9 +167,35 @@
     </index>
    </folder>
   </table>
+  <table id="TAB42" populated="true" UUID="52662a48-d49b-465d-80e6-b0c5b5516109" name="participants" objectType="TABLE" physicalName="participants" >
+   <remarks></remarks>
+   <folder id="FOLTAB421" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL43" populated="true" UUID="0e14fbff-6fa8-4276-90a4-a38f8d2736dd" autoIncrement="true" autoIncrementSequenceName="participants_id_seq" defaultValue="" name="id" nullable="0" physicalName="id" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL44" populated="true" UUID="95e3a9e9-6d11-4cb5-8a05-fdcc9f73e296" autoIncrement="false" autoIncrementSequenceName="participants_name_seq" defaultValue="" name="name" nullable="0" physicalName="name" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL45" populated="true" UUID="ae2f1f48-9cd7-464b-b993-84d2c0111856" autoIncrement="false" autoIncrementSequenceName="participants_email_seq" defaultValue="" name="email" nullable="0" physicalName="email" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL46" populated="true" UUID="efc20084-07ff-4011-93c7-4fb59e3d2aca" autoIncrement="false" autoIncrementSequenceName="participants_celphone_seq" defaultValue="" name="celphone" nullable="0" physicalName="celphone" precision="20" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB423" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB422" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB424" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX47" populated="true" UUID="d8008b3f-3c90-4a4c-a188-bdb223b31018" clustered="false" name="participants_pk" physicalName="participants_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC48" populated="true" UUID="f36d9409-8f32-43c9-b45f-cde93a0fd842" ascendingOrDescending="UNSPECIFIED" column-ref="COL43" name="id" physicalName="id" />
+    </index>
+   </folder>
+  </table>
   <relationships>
-   <relationship id="REL42" populated="true" UUID="d456dcff-6121-4202-8a2d-489da5dca885" deferrability="7" deleteRule="0" fk-table-ref="TAB6" fkCardinality="7" identifying="true" name="categories_products_fk" physicalName="categories_products_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="0" >
-    <column-mapping id="CMP43" populated="true" UUID="0e320bb5-0195-43c9-9d54-294b90c2b38b" fk-column-ref="COL11" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL49" populated="true" UUID="d456dcff-6121-4202-8a2d-489da5dca885" deferrability="7" deleteRule="0" fk-table-ref="TAB6" fkCardinality="7" identifying="true" name="categories_products_fk" physicalName="categories_products_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="0" >
+    <column-mapping id="CMP50" populated="true" UUID="0e320bb5-0195-43c9-9d54-294b90c2b38b" fk-column-ref="COL11" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
   </relationships>
  </target-database>
@@ -182,7 +208,8 @@
   <table-pane table-ref="TAB16" x="86" y="257" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB26" x="407" y="320" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB32" x="101" y="460" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-link relationship-ref="REL42" pkConnection="0.48484848484848486" fkConnection="0.8059701492537313" rLineColor="0x4c4c4c" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-pane table-ref="TAB42" x="477" y="470" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL49" pkConnection="0.48484848484848486" fkConnection="0.8059701492537313" rLineColor="0x4c4c4c" pkLabelText="" fkLabelText="" orientation="33"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">
