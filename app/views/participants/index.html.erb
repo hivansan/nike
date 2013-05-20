@@ -1,4 +1,4 @@
-<h1>Listing participants</h1>
+<h1>Listing Users</h1>
 
 <table class="table">
   <tr>
@@ -24,7 +24,16 @@
 
 <br />
 
+    <%= form_for(:sms, url: sms_path) do |f| %>
+
+      <%= f.label :message %>
+      <%= f.text_field :message %>
+
+      <%= f.submit "Send Message", class: "btn btn-large btn-primary" %>
+    <% end %>
+
+
 <%= link_to 'New Participant', new_participant_path %>
 <br/>
 
-<%= link_to 'Send SMS to All', sms_path %>
+

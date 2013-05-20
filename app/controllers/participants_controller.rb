@@ -1,5 +1,5 @@
 class ParticipantsController < ApplicationController
-require 'clickatell'
+#require 'clickatell'
 
 #  before_filter :signed_in_user
   # GET /participants
@@ -57,14 +57,16 @@ require 'clickatell'
   
   def send_sms
     participants = Participant.all
-#    participants.each do |participant|
-#      if participant.celphone[0] == "5" && participant.celphone[1] == "5"
-        api = Clickatell::API.authenticate('3384575', 'raulms', 'fKj0LPo5')
-        api.send_message('525543811862', 'Hello from clickatell')
-#      end
-#    end
+
+    api = Clickatell::API.authenticate('3384575', 'raulms', 'fKj0LPo5')
+
+    participants.each do |participant|
+#      api.send_message('52'+participant.celphone, params[:sms][:message])
+    end
     
-    flash[:success] = "success"
+    if params
+      flash[:success] = "Su mensaje ha sido enviado satisfactoriamente: " + params[:sms][:message]
+    end
     
     redirect_to participants_url
     
